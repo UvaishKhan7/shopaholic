@@ -22,7 +22,7 @@ function CartItem({ cart }) {
                 <div className="qty text-bg-light d-flex align-items-center text-center px-1 py-1">
                   <button className='btn-minus' onClick={() => {
                     const _CART = CART.map((item, index) => {
-                      return productIndex === index ? { ...item, Qty: product.Qty - 1 } : item;
+                      return productIndex === index ? { ...item, Qty: product.Qty > 0 ? product.Qty - 1 : 0 } : item;
                     });
                     setCART(_CART);
                   }
