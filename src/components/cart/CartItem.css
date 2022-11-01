@@ -1,0 +1,29 @@
+.cartItemWrapper{
+    background-color: rgba(221, 221, 221, 0.404);
+    padding: 2rem;
+    margin: 3rem auto;
+    border-radius: 1rem;
+    overflow-y: scroll;
+}
+
+.ttl{
+    width: 25rem;
+}
+
+.btn-minus{
+    border: 1px solid red;
+    border-radius: 0.25rem;
+    background-color: transparent;
+    color: red;
+    width: 1.5rem;
+    text-align: center;
+}
+
+.btn-plus{
+    border: 1px solid green;
+    border-radius: 0.25rem;
+    background-color: transparent;
+    color: green;
+    width: 1.5rem;
+    text-align: center;
+}

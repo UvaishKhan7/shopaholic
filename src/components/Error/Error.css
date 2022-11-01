@@ -1,0 +1,14 @@
+.err-ttl {
+  font-size: 4rem;
+  background: -webkit-linear-gradient(rgba(255, 141, 26, 0), rgb(173, 73, 6));
+  background-clip: content-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.err-msg {
+  background: -webkit-linear-gradient(rgba(248, 165, 81, 0.301), rgb(151, 43, 0));
+  background-clip: content-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

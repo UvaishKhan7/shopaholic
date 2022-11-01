@@ -1,0 +1,5 @@
+.descOuter{
+    box-sizing: border-box;
+    border: 1px solid gray;
+    width: 35rem;
+}

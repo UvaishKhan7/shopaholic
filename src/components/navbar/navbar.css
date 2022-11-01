@@ -1,0 +1,66 @@
+.navWrapper {
+  box-shadow: -2px 2px 10px 0 rgba(255, 115, 0, 0.479);
+  background: white;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  padding-left: 1rem;
+}
+
+.navUl {
+  width: 100%;
+}
+
+.searchInputOuter {
+  width: 400px;
+  background-color: #e2e2e26c;
+  padding: 0.25rem 0.8rem;
+  color: black;
+  border-radius: 0.25rem;
+}
+
+.searchInput {
+  color: black;
+  width: 100%;
+  border: none;
+  background: transparent;
+  outline: none;
+  padding: 0rem 1rem;
+  font-size: small;
+  height: 2rem;
+}
+
+.nav-list {
+  border: 3px solid transparent;
+}
+
+.nav-list:hover {
+  border-bottom: 3px solid rgb(255, 94, 0);
+}
+
+.men:hover {
+  border-bottom: 3px solid rgb(64, 133, 224);
+}
+
+.women:hover {
+  border-bottom: 3px solid rgb(255, 115, 138);
+}
+
+.elec:hover {
+  border-bottom: 3px solid silver;
+}
+
+.jewel:hover {
+  border-bottom: 3px solid #ffd700;
+}
+
+.cartVal{
+  align-items: baseline;
+}
+
+@media (max-width: 992px) {
+  .listWrapper{
+    display: flex;
+    flex-direction: column;
+  }
+}
